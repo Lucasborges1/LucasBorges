@@ -1,7 +1,7 @@
 // src/components/Intro.jsx
 import React from 'react';
 import styled from 'styled-components';
-import perfilImg from '../public/images/perfil1.png'; // substitua pelo seu arquivo exportado
+import perfilImg from '../../public/perfil1.png'; // substitua pelo seu arquivo exportado
 
 const IntroContainer = styled.section`
   display: flex;
