@@ -38,27 +38,27 @@ const Experiencias = () => {
     {
       empresa: 'Globo',
       texto: 'Em 2021, atuei nos jornais mais importantes ... etc',
-      imgSrc: '../../public/globo1.png' // etc
+      imgSrc: '/globo1.png' // etc
     },
     {
       empresa: 'Globo',
       texto: 'Em 2023, recebi uma menção honrosa ...',
-      imgSrc: '../../public/globo2.png'
+      imgSrc: '/globo2.png'
     },
     {
       empresa: 'Globo',
       texto: 'Em 2025, talvez o maior momento da minha carreira ...',
-      imgSrc: '../../public/globo3.png'
+      imgSrc: '/globo3.png'
     },
     {
       empresa: 'ESPN',
       texto: 'Em 2020, eu mudei para São Paulo ...',
-      imgSrc: '../../public/espn.png'
+      imgSrc: '/espn1.png'
     },
     {
       empresa: 'FOX Sports',
       texto: 'Em 2017, comecei minha carreira ...',
-      imgSrc: '../../public/foxsports.png'
+      imgSrc: '/foxsports1.png'
     },
   ];
 
