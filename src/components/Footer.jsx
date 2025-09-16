@@ -47,9 +47,9 @@ const Footer = () => (
     <Text>Estou aberto a novos desafios e possibilidades que agreguem ao meu crescimento como profissional.</Text>
     <EmailLink href="mailto:borgesfernandeslucas@gmail.com">borgesfernandeslucas@gmail.com</EmailLink>
     <Socials>
-      <SocialLink href="#">LinkedIn</SocialLink>
-      <SocialLink href="#">Instagram</SocialLink>
-      <SocialLink href="#">Behance</SocialLink>
+      <SocialLink href="https://www.linkedin.com/in/lucasfborges1">LinkedIn</SocialLink>
+      <SocialLink href="https://www.instagram.com/lucas.borges1">Instagram</SocialLink>
+      <SocialLink href="https://www.behance.net/borgesfern1329">Behance</SocialLink>
     </Socials>
   </FooterContainer>
 );
