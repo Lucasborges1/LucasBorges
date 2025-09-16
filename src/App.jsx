@@ -8,11 +8,11 @@ import Footer from './components/Footer';
 import styled, { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 
-const AppWrapper = styled.div\`
+const AppWrapper = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-\`;
+`;
 
 function App() {
   const [activeTab, setActiveTab] = useState('carreira');

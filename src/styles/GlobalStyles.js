@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle\`
+const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -23,6 +23,6 @@ const GlobalStyles = createGlobalStyle\`
     max-width: 100%;
     display: block;
   }
-\`;
+`;
 
 export default GlobalStyles;

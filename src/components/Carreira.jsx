@@ -1,45 +1,45 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Section = styled.section\`
+const Section = styled.section`
   margin-bottom: 60px;
-\`;
+`;
 
-const EntryList = styled.div\`
+const EntryList = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-\`;
+`;
 
-const Entry = styled.div\`
+const Entry = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background-color: \${({ theme }) => theme.colors.background};
+  background-color: ${({ theme }) => theme.colors.background};
   border-radius: 8px;
-\`;
+`;
 
-const EntryText = styled.div\`
+const EntryText = styled.div`
   flex: 1;
-\`;
+`;
 
-const EntryTitle = styled.h3\`
+const EntryTitle = styled.h3`
   font-size: 1.125rem;
-  color: \${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.primary};
   font-weight: bold;
-\`;
+`;
 
-const EntrySubtitle = styled.p\`
+const EntrySubtitle = styled.p`
   font-size: 1rem;
-  color: \${({ theme }) => theme.colors.greyDark};
+  color: ${({ theme }) => theme.colors.greyDark};
   margin-top: 4px;
-\`;
+`;
 
-const EntryDate = styled.span\`
-  color: \${({ theme }) => theme.colors.greyDark};
+const EntryDate = styled.span`
+  color: ${({ theme }) => theme.colors.greyDark};
   font-size: 0.875rem;
-\`;
+`;
 
 const Carreira = () => {
   const data = [
